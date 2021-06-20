@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pino</title>
+    <script src="pianijs.js" async></script>
+    <link rel="stylesheet" href="pianocss.css">
+
+</head>
+<body>
+  <section id="wrap">
+    <section id="main">
+      <div class="nowplaying">AUDIO AMERIA</div>
+      <div class="keys">
+        <div data-key="1" class="key" data-note="C">
+            <span class="hints">A</span>
+        </div>
+        <div data-key="2" class="key sharp" data-note="C#">
+            <span class="hints">W</span>
+        </div>
+        <div data-key="3" class="key" data-note="D">
+            <span class="hints">S</span>
+        </div>
+        <div data-key="4" class="key sharp" data-note="D#">
+            <span class="hints">E</span>
+        </div>
+        <div data-key="5" class="key" data-note="E">
+            <span class="hints">D</span>
+        </div>
+        <div data-key="6" class="key" data-note="F">
+            <span class="hints">F</span>
+        </div>
+        <div data-key="7" class="key sharp" data-note="F#">
+            <span class="hints">T</span>
+        </div>
+        <div data-key="8" class="key" data-note="G">
+            <span class="hints">G</span>
+        </div>
+        <div data-key="9" class="key sharp" data-note="G#">
+            <span class="hints">Y</span>
+        </div>
+        <div data-key="10" class="key" data-note="A">
+            <span class="hints">H</span>
+        </div>
+        <div data-key="11" class="key sharp" data-note="A#">
+            <span class="hints">U</span>
+        </div>
+        <div data-key="12" class="key" data-note="B">
+            <span class="hints">J</span>
+        </div>
+        <textarea id="inputArray"></textarea>
+    <button id="play" onclick="play()">Play</button>
+      </div>
+      <audio data-key="1" id="1" src="/do.wav"></audio>
+      <audio data-key="2" id="2" src="/dos.wav"></audio>
+      <audio data-key="3" id="3" src="/re.wav"></audio>
+      <audio data-key="4" id="4" src="/res.wav"></audio>
+      <audio data-key="5" id="5" src="/mi.wav"></audio>
+      <audio data-key="6" id="6" src="/fa.wav"></audio>
+      <audio data-key="7" id="7" src="/fas.wav"></audio>
+      <audio data-key="8" id="8" src="/sol.wav"></audio>
+      <audio data-key="9" id="9" src="/sols.wav"></audio>
+      <audio data-key="10" id="10" src="/la.wav"></audio>
+      <audio data-key="11" id="11" src="/las.wav"></audio>
+      <audio data-key="12" id="12" src="/si.wav"></audio>
+      </section>
+  </section>
+
+  </body>
